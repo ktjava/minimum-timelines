@@ -10,14 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161013234256) do
-
-  create_table "timelines", force: :cascade do |t|
-    t.date     "posted_date"
-    t.string   "sns_name"
-    t.string   "message"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
